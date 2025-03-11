@@ -1,0 +1,73 @@
+/* Center the container on the page */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Style the container */
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the heading */
+h1 {
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+/* Flex container for input and buttons */
+.input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Space between elements */
+    margin-bottom: 20px;
+}
+
+/* Style the input field */
+#timeInput {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Base styles for buttons */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for buttons */
+button:hover:enabled {
+    background-color: #0056b3;
+}
+
+/* Disabled button state */
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Style the countdown display */
+#countdownDisplay {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff0000;
+}
