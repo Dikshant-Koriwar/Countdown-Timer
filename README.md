@@ -28,7 +28,7 @@ To use or modify this countdown timer:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/countdown-timer.git](https://github.com/Dikshant-Koriwar/Countdown-Timer.git
+   git clone https://github.com/Dikshant-Koriwar/Countdown-Timer.git
    ```
 
 
